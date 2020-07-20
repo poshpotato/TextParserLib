@@ -1,8 +1,11 @@
-import 'dart:html';
+import 'dart:collection';
+import 'Response.dart';
 
 class Parser {
-  Stream<String> statements;
-  Stream<String> stringStream() async*{
+  HashMap<RegExp, Response> possibleResponses;
+  HashMap<String, bool> internalVariables;
 
+  void addInternalVar(String name, bool initValue){
+    internalVariables.addAll(<String, bool>{name: initValue});
   }
 }

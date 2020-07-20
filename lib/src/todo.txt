@@ -1,0 +1,16 @@
+Next 5 minutes
+Add methods that take a pair of variables and store them in the maps for the respective classes.
+Unit tests
+
+Next hour
+Add constructors.
+
+Next days
+Define syntax for responses.
+Set up example
+
+
+Done
+Add all maps and lists:
+> RegExp : Response (To check against)
+> String : Bool (To check variables)
